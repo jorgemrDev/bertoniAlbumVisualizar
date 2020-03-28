@@ -1,0 +1,16 @@
+﻿@model List<Models.Photo>
+@{
+    ViewData["Title"] = "VisualizeAlbum";
+}
+
+<h1>Visualize Album</h1>
+
+<div>
+    @foreach (var item in Model)
+    {
+        <p> @item.title </p>
+        <img src="@item.thumbnailUrl" alt="album photo" />
+        @Html.ActionLink("Ver Comentarios", "ViewComments", "Home", new { id = @item.id }, "")
+
+    }
+</div>

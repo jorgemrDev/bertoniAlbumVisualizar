@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29609.76
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{2E0FF61A-1E39-48A6-99BE-AA48C50769E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.UI", "1.UI", "{31D20828-0B62-4E8D-8D6C-0968A419A0C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Bussiness", "2.Bussiness", "{9457AFC0-B98D-4353-9B02-1546C1652CDD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.DataLayer", "3.DataLayer", "{A35DEF0C-6B24-4A26-A7C0-CCA7EAA694CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Models", "4.Models", "{9A93569C-F6F6-4B09-BF1B-C4A122988F01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Tests", "5.Tests", "{69A139DC-84F3-4FBC-AACB-25A0E134AF19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{BA61859F-E024-4F11-91E3-24BD8C6CEE06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{8EC7F1BF-E176-45DB-A6CE-657193C3EC12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BertoniAlbumsVisualizer", "BertoniAlbumsVisualizer\BertoniAlbumsVisualizer.csproj", "{21D4C0F9-7C30-4948-BFA7-AC06029003B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0FF61A-1E39-48A6-99BE-AA48C50769E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0FF61A-1E39-48A6-99BE-AA48C50769E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0FF61A-1E39-48A6-99BE-AA48C50769E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0FF61A-1E39-48A6-99BE-AA48C50769E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA61859F-E024-4F11-91E3-24BD8C6CEE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA61859F-E024-4F11-91E3-24BD8C6CEE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA61859F-E024-4F11-91E3-24BD8C6CEE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA61859F-E024-4F11-91E3-24BD8C6CEE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EC7F1BF-E176-45DB-A6CE-657193C3EC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EC7F1BF-E176-45DB-A6CE-657193C3EC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EC7F1BF-E176-45DB-A6CE-657193C3EC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EC7F1BF-E176-45DB-A6CE-657193C3EC12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D4C0F9-7C30-4948-BFA7-AC06029003B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D4C0F9-7C30-4948-BFA7-AC06029003B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D4C0F9-7C30-4948-BFA7-AC06029003B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D4C0F9-7C30-4948-BFA7-AC06029003B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E0FF61A-1E39-48A6-99BE-AA48C50769E3} = {A35DEF0C-6B24-4A26-A7C0-CCA7EAA694CD}
+		{BA61859F-E024-4F11-91E3-24BD8C6CEE06} = {9A93569C-F6F6-4B09-BF1B-C4A122988F01}
+		{8EC7F1BF-E176-45DB-A6CE-657193C3EC12} = {9457AFC0-B98D-4353-9B02-1546C1652CDD}
+		{21D4C0F9-7C30-4948-BFA7-AC06029003B7} = {31D20828-0B62-4E8D-8D6C-0968A419A0C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7635678E-E79C-4B14-B35E-51047F701FD4}
+	EndGlobalSection
+EndGlobal

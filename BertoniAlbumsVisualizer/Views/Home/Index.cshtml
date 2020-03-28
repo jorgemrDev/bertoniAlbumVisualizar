@@ -1,0 +1,19 @@
+﻿@model BertoniAlbumsVisualizer.ViewModels.AlbumsList;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to the Bertoni Albums Visualizer</h1>
+    <p>Please select an album to see Photos</p>
+
+
+    <form asp-action="VisualizeAlbum" asp-controller="Home">
+        <select asp-for="SelectedCategory" asp-items="@Model.Albums">
+            <option>Select one</option>
+        </select>
+        <input type="submit" value="Visualizar Album" />
+    </form>
+
+</div>
